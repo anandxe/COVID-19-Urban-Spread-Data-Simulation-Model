@@ -5,7 +5,7 @@
 
 December 2021
 
-1. Project Description
+1 Project Description
 COVID-19 is a disease caused by a virus called SARS-CoV-2. This disease
 emerged around December 2019 causing millions of deaths all across the world.
 The virus spreads from an infected person to others through respiratory droplets
