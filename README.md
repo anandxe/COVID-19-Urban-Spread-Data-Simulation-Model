@@ -15,30 +15,30 @@ the exponential spread of Covid-19, and assist with slowing it. The data sets
 are crucial in scientific research as they allow us to test or check future insights
 and will be quite necessary for future long-term study.
 
-The goal of our project is to present a simplified model that will simulate
-the spread of an epidemic in a given population. With this model, we will try
-to simulate some real-world conditions and interpret how these conditions affect
-the spread of an epidemic(Covid-19) in this case.
-
-A ‘curve’ in our context is a graphical representation of the onset of illness
-among cases associated with an outbreak. The term “Flatten the Curve” means
-to spread out the rate of infection in order to prevent an overwhelmed health
-care system and infrastructure. During our research, we will explore many
-factors that have an effect on the curve. We will also analyze how each of
-the preventative measures (social distancing, quarantine, vaccinations, etc) and
-socio-economic factors (population density, access to healthcare, etc) affect this
-curve.
-
-The question we want to ask is,given the nature of a particular urban
-center or town, can we accurately simulate the outcome of a Covid
-outbreak if it were to happen thereand identify causing factors which lead
-to an undesirable “curve” outcome?
-
-With gradual improvement of the simulation through feedback from real
-world data and scientific research, we might get a usable tool for predicting the
-risk an epidemic poses on regions with particular characteristics. This would
-allow testing policies in advance, and foreseeing the leading causes of the spread
-of infection.
+  The goal of our project is to present a simplified model that will simulate
+  the spread of an epidemic in a given population. With this model, we will try
+  to simulate some real-world conditions and interpret how these conditions affect
+  the spread of an epidemic(Covid-19) in this case.
+  
+  A ‘curve’ in our context is a graphical representation of the onset of illness
+  among cases associated with an outbreak. The term “Flatten the Curve” means
+  to spread out the rate of infection in order to prevent an overwhelmed health
+  care system and infrastructure. During our research, we will explore many
+  factors that have an effect on the curve. We will also analyze how each of
+  the preventative measures (social distancing, quarantine, vaccinations, etc) and
+  socio-economic factors (population density, access to healthcare, etc) affect this
+  curve.
+  
+  The question we want to ask is,given the nature of a particular urban
+  center or town, can we accurately simulate the outcome of a Covid
+  outbreak if it were to happen thereand identify causing factors which lead
+  to an undesirable “curve” outcome?
+  
+  With gradual improvement of the simulation through feedback from real
+  world data and scientific research, we might get a usable tool for predicting the
+  risk an epidemic poses on regions with particular characteristics. This would
+  allow testing policies in advance, and foreseeing the leading causes of the spread
+  of infection.
 
 2. Relevant Dataset
 A relevant dataset that we used for our project comes from the Government of
@@ -53,9 +53,9 @@ to run a simulation with similar parameters as this data. This will then allow
 us to see a similar covid case rate and possibly be able to conclude that there
 was a relationship between the variables.
 
-Link to Dataset:
-https://open.canada.ca/data/en/dataset/2d86f026-10b4-44ac-a68b-80a9dd5dd390/resource/ab558292-
-2e62-4b71-944b-aa6c19cc5d41?innerspan=True
+  Link to Dataset:
+  https://open.canada.ca/data/en/dataset/2d86f026-10b4-44ac-a68b-80a9dd5dd390/resource/ab558292-
+  2e62-4b71-944b-aa6c19cc5d41?innerspan=True
 
 3. Computational Overview
 Computational Q4: In our simulation, we incorporated several computational
