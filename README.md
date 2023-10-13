@@ -42,6 +42,7 @@ allow testing policies in advance, and foreseeing the leading causes of the spre
 of infection.
 
 -> Relevant Dataset
+
 A relevant dataset that we used for our project comes from the Government of
 Canada. This dataset holds information about various Toronto neighborhoods
 and their CoVID data. The dataset is available in many formats, including
@@ -57,6 +58,7 @@ was a relationship between the variables.
   Link to Dataset:
   https://open.canada.ca/data/en/dataset/2d86f026-10b4-44ac-a68b-80a9dd5dd390/resource/ab558292-
   2e62-4b71-944b-aa6c19cc5d41?innerspan=True
+
 
 -> Computational Overview
 
@@ -96,6 +98,7 @@ also built a geometry module containing path-finding and classes to represent
 2D geometry such as points, vectors, rectangles, etc
 Add anything else you want
 
+
 ->Instructions for Obtaining Sets and Running
 Program
 
@@ -117,6 +120,7 @@ this. Once a simulated dataset is chosen from simdata folder, select the caption
 column as day-number and the values column as case-proportion. Now press
 run comparison
 
+
 -> Changes Made to Project Plan
 
 The initial goal of our project was to present a simplified model that would
@@ -128,6 +132,7 @@ would use data to train a prediction model. We deemed that approach would
 be a bit too complex. Instead, we stuck with the simulation, keeping in mind
 that it wouldn’t be flawless at first attempt. The simulation will need to be
 improved over time using surrounding data.
+
 
 -> Discussion
 
@@ -155,7 +160,9 @@ outcome of a Covid outbreak given the nature of an urban centre or town. The
 simulations produced give us a way to visualize the spread of Covid and the
 graphs help us compare the results to real world data.
 
+
 -> Works Cited
+
 “The University of Alabama at Birmingham.”UAB, http://www.uab.edu/.
 
 Centers for Disease Control and Prevention, Centers for Disease Control and
