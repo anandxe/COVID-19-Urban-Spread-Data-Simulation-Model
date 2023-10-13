@@ -5,7 +5,8 @@
 
 December 2021
 
-1 Project Description
+-> Project Description
+
 COVID-19 is a disease caused by a virus called SARS-CoV-2. This disease
 emerged around December 2019 causing millions of deaths all across the world.
 The virus spreads from an infected person to others through respiratory droplets
@@ -15,32 +16,32 @@ the exponential spread of Covid-19, and assist with slowing it. The data sets
 are crucial in scientific research as they allow us to test or check future insights
 and will be quite necessary for future long-term study.
 
-  The goal of our project is to present a simplified model that will simulate
-  the spread of an epidemic in a given population. With this model, we will try
-  to simulate some real-world conditions and interpret how these conditions affect
-  the spread of an epidemic(Covid-19) in this case.
+The goal of our project is to present a simplified model that will simulate
+the spread of an epidemic in a given population. With this model, we will try
+to simulate some real-world conditions and interpret how these conditions affect
+the spread of an epidemic(Covid-19) in this case.
   
-  A ‘curve’ in our context is a graphical representation of the onset of illness
-  among cases associated with an outbreak. The term “Flatten the Curve” means
-  to spread out the rate of infection in order to prevent an overwhelmed health
-  care system and infrastructure. During our research, we will explore many
-  factors that have an effect on the curve. We will also analyze how each of
-  the preventative measures (social distancing, quarantine, vaccinations, etc) and
-  socio-economic factors (population density, access to healthcare, etc) affect this
-  curve.
+A ‘curve’ in our context is a graphical representation of the onset of illness
+among cases associated with an outbreak. The term “Flatten the Curve” means
+to spread out the rate of infection in order to prevent an overwhelmed health
+care system and infrastructure. During our research, we will explore many
+factors that have an effect on the curve. We will also analyze how each of
+the preventative measures (social distancing, quarantine, vaccinations, etc) and
+socio-economic factors (population density, access to healthcare, etc) affect this
+curve.
   
-  The question we want to ask is,given the nature of a particular urban
-  center or town, can we accurately simulate the outcome of a Covid
-  outbreak if it were to happen thereand identify causing factors which lead
-  to an undesirable “curve” outcome?
+The question we want to ask is,given the nature of a particular urban
+center or town, can we accurately simulate the outcome of a Covid
+outbreak if it were to happen thereand identify causing factors which lead
+to an undesirable “curve” outcome?
   
-  With gradual improvement of the simulation through feedback from real
-  world data and scientific research, we might get a usable tool for predicting the
-  risk an epidemic poses on regions with particular characteristics. This would
-  allow testing policies in advance, and foreseeing the leading causes of the spread
-  of infection.
+With gradual improvement of the simulation through feedback from real
+world data and scientific research, we might get a usable tool for predicting the
+risk an epidemic poses on regions with particular characteristics. This would
+allow testing policies in advance, and foreseeing the leading causes of the spread
+of infection.
 
-2. Relevant Dataset
+-> Relevant Dataset
 A relevant dataset that we used for our project comes from the Government of
 Canada. This dataset holds information about various Toronto neighborhoods
 and their CoVID data. The dataset is available in many formats, including
@@ -57,7 +58,8 @@ was a relationship between the variables.
   https://open.canada.ca/data/en/dataset/2d86f026-10b4-44ac-a68b-80a9dd5dd390/resource/ab558292-
   2e62-4b71-944b-aa6c19cc5d41?innerspan=True
 
-3. Computational Overview
+-> Computational Overview
+
 Computational Q4: In our simulation, we incorporated several computational
 models. We successfully created a model to calculate the probability of infection
 based on 2D geometric movement paths over time. We also created a model
@@ -68,15 +70,18 @@ finding algorithm, It goes around the vertices of shapes and generates paths to
 the final destination. This was a very complex model that used recursion trees
 to keep track of all the possible routes, and works on almost any similar problem
 domain in path-finding.
+
 We implemented a Sim Manager class that was similar to the one developed
 in class, which was in charge of managing the entire simulation, running the
 probability models, and keeping track of everyone in the city and their move-
 ments and actions.
+
 Our program has a launcher menu allowing you to launch the simulation and
 compare results with a real-world data making it interactive and visually at-
 tractive. The program also uses pygame to help simply visualize the simulation
 world with different rectangles representing buildings and created a randomised
 city grid as well.
+
 We then used pandas and plotly to plot and display data, allowing the users
 to compare the Covid-statistics with real-world data obtained from our dataset.
 Our focus was the different neighbourhoods with toronto and the dataset con-
@@ -91,8 +96,9 @@ also built a geometry module containing path-finding and classes to represent
 2D geometry such as points, vectors, rectangles, etc
 Add anything else you want
 
-4. Instructions for Obtaining Sets and Running
+->Instructions for Obtaining Sets and Running
 Program
+
 -Download and install all the files from markus
 -Check and install all libraries from requirements.txt
 -Now download the dataset needed from UTSEND:
@@ -111,7 +117,8 @@ this. Once a simulated dataset is chosen from simdata folder, select the caption
 column as day-number and the values column as case-proportion. Now press
 run comparison
 
-5. Changes Made to Project Plan
+-> Changes Made to Project Plan
+
 The initial goal of our project was to present a simplified model that would
 simulate the spread of an epidemic in a given population. We would then
 try to simulate some real-world conditions and interpret how these conditions
@@ -122,7 +129,8 @@ be a bit too complex. Instead, we stuck with the simulation, keeping in mind
 that it wouldn’t be flawless at first attempt. The simulation will need to be
 improved over time using surrounding data.
 
-6. Discussion
+-> Discussion
+
 Our simulation obtained works quite well. We successfully incorporated many
 factors that affect the spread of covid-19 including mask wearing precautions,
 the affect of different weather and temprature conditions, age demographics
@@ -147,7 +155,7 @@ outcome of a Covid outbreak given the nature of an urban centre or town. The
 simulations produced give us a way to visualize the spread of Covid and the
 graphs help us compare the results to real world data.
 
-7. Works Cited
+-> Works Cited
 “The University of Alabama at Birmingham.”UAB, http://www.uab.edu/.
 
 Centers for Disease Control and Prevention, Centers for Disease Control and
